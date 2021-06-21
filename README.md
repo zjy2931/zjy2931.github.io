@@ -9,8 +9,8 @@
 
 ### 备忘
 
-workpc   HRF3HF4-4RSSDQW-PEQTPS7-F4VPY7P-53JD6HT-GYQ3EIO-ZUNXMHN-QGARSA6
-zjy-pc  
-zjy-pc2
-zjy-mobile  
+* workpc   HRF3HF4-4RSSDQW-PEQTPS7-F4VPY7P-53JD6HT-GYQ3EIO-ZUNXMHN-QGARSA6
+* zjy-pc  
+* zjy-pc2
+* zjy-mobile  
 
