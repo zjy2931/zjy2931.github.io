@@ -6,4 +6,4 @@
 * [mitt](https://github.com/developit/mitt)
 * [day.js]()
 * [fs-extra]()
-* [typeIt](https://typeitjs.com/)
+* [typeIt](https://github.com/alexmacarthur/typeit)
