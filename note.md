@@ -7,3 +7,4 @@
 * [day.js]()
 * [fs-extra]()
 * [typeIt](https://github.com/alexmacarthur/typeit)
+https://github.com/jlmakes/scrollreveal
