@@ -9,3 +9,4 @@
 * [fs-extra]()
 * [typeIt](https://github.com/alexmacarthur/typeit)
 * [加密rsa](https://www.npmjs.com/package/wxmp-rsa)
+* [抽奖大转盘](https://github.com/LuckDraw/lucky-canvas)
