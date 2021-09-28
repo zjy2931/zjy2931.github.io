@@ -10,3 +10,4 @@
 * [typeIt](https://github.com/alexmacarthur/typeit)
 * [加密rsa](https://www.npmjs.com/package/wxmp-rsa)
 * [抽奖大转盘](https://github.com/LuckDraw/lucky-canvas)
+* [收藏集合](https://github.com/huaize2020/awesome-frontend)
