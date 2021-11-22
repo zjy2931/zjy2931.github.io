@@ -15,6 +15,6 @@
 * zjy-mobile  
 ###  安装mysql
 ###  安装code-server
-###  liunx 代理
+###  liunx 代理 怎么进行代理
 
 
