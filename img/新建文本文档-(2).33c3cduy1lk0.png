@@ -1,0 +1,45 @@
+#include <bits/stdc++.h>
+#define int long long
+#define inf 1e9
+using namespace std;
+int n,m,s,t,t0,cnt1[100005],tim[100005],ind[100005],head[100005],cnt,u,v,w;
+struct node{
+	int v,w,nxt;
+}edge[200010];
+queue<int> q;
+void add(int u,int v,int w){
+	cnt++;
+	edge[cnt].v=v;
+	edge[cnt].w=w;
+	edge[cnt].nxt=head[u];
+	head[u]=cnt;
+}
+signed main() {
+	cin>>n>>m>>s>>t>>t0;
+	for(int i=1;i<=m;i++){
+		cin>>u>>v>>w;
+		add(u,v,w);
+		ind[v]++;
+	}
+	for (int i = 1; i <= n; i++){
+		if(ind[i]==0){
+			q.push(i);
+			cnt1[i]=1;
+		}
+	}
+	while(!q.empty()){
+		int k=q.front();
+		q.pop();
+		for(int i=head[k];i;i=edge[i].nxt){
+			int u=edge[i].v;
+			int v=edge[i].w;
+			tim[u]=(tim[u]+tim[k]+cnt1[k]*v)%10000;
+			cnt1[u]=(cnt1[u]+cnt1[k])%10000;
+			ind[u]--;
+			if(ind[u]==0){
+				q.push(u);
+			}
+		}
+	}
+	cout<<(tim[t]+(cnt1[t]-1)*t0%10000)%10000;
+}
